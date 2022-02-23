@@ -1,0 +1,860 @@
+#accordionNav-course-sections {
+  display: none !important; /**  Removes Course Section List on Sidebar **/
+}
+#page-my-index div[data-course-id="18"] .c-course-box .c-course-content,
+#page-my-index div[data-course-id="17"] .c-course-box .c-course-content,
+#page-my-index div[data-course-id="15"] .c-course-box .c-course-content {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.76;
+  transition: 0.5s ease;
+  background-color: #ccc;
+  pointer-events: none;
+}
+
+#page-course-view-topics a[data-key="completionreports"],
+#page-mod-scorm-view a[data-key="completionreports"] {
+  display: none !important;
+}
+#page-admin-report-customsql-view #page-navbar {
+  pointer-events: none !important;
+}
+#page-my-index #page-header {
+  margin-bottom: 20px;
+  margin-top: -1px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-my-index #page {
+  padding: 0 !important;
+}
+#region-main-box {
+  padding: 0px 40px !important;
+}
+.c-logo-mobile {
+  display: none !important;
+}
+#page-admin-tool-policy-view .policy_buttons .btn-link {
+  display: none !important;
+}
+#page-admin-tool-policy-view .policy_buttons .float-right {
+  display: none !important;
+}
+.eupopup-container-bottom {
+  display: none !important;
+}
+
+.policiesfooter {
+  display: none !important;
+}
+#page-course-view-topics .activity img.activityicon {
+  width: 60px !important;
+  height: 60px !important;
+  margin-right: 10px;
+}
+/**
+#page-course-view-topics.course-10 .activity img.activityicon{
+ visibility:hidden !important;
+}
+#page-course-view-topics.course-10 .activity img::after{
+  width: 60px !Important;
+  height: 60px !important;
+    margin-right: 10px;
+ background: blue;
+ visibility: visible !important;
+display: block !important;
+}
+**/
+#page-course-view-topics .section li.activity {
+  border-bottom: unset !important;
+}
+
+#page-mod-scorm-view #intro a {
+  visibility: hidden;
+}
+#page-mod-scorm-view #intro a:after {
+  content: "This Module has been launched in a popup window, If you have finished viewing this resource, click here to return to the course page";
+  visibility: visible;
+  display: block;
+}
+#page-my-index .dashboard-card-img {
+  position: relative;
+}
+#page-my-index .dashboard-card-img a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+span[data-flexitour="container"] {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+span[data-flexitour="container"] .modal-dialog {
+  max-width: 900px !important;
+}
+.tool_usertours-resettourcontainer {
+  display: none !important;
+}
+/** COURSE HEADERS **/
+
+.s-footer--copy div.col-12.my-3.p-0 {
+  //display: none !important;
+}
+.s-footer .copy {
+  display: none !important;
+}
+.s-footer--additional ul li {
+  display: none !important;
+}
+#page-course-view-topics #page-content {
+  padding: 40px;
+}
+#page-footer {
+  clear: both;
+  position: relative;
+  margin-top: 10px;
+  font-weight: 800;
+  font-family: inherit;
+}
+
+#page-course-view-topics #page {
+  padding: 0 !important;
+}
+#page-course-view-topics .page-context-header .page-header-headings h1 {
+  color: white !important;
+}
+.course-content {
+  margin-top: 0;
+  padding: 40px 29px;
+}
+#page-course-view-topics #page-header {
+  margin-top: -1px;
+}
+#page-course-view-tiles #page-header {
+  margin-top: -1px;
+}
+#page-course-view-tiles #skyguide img {
+  height: 50px;
+}
+#skyguide {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 20px;
+}
+#unitatis-default {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 20px;
+}
+#skyguide img {
+  height: 50px;
+}
+#unitatis-default img {
+  height: 75px;
+}
+#page-course-view-tiles .page-context-header .page-header-headings h1 {
+  color: white !important;
+}
+#page-course-view-tiles.course-2 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-3 #page-header,
+#page-course-view-topics.course-23 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-5 #page-header,
+#page-course-view-topics.course-25 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-6 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-7 #page-header,
+#page-course-view-topics.course-24 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-9 #page-header,
+#page-course-view-topics.course-22 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-8 #page-header,
+#page-course-view-topics.course-21 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-10 #page-header,
+#page-course-view-topics.course-20 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-11 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-12 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-18 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-17 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-15 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#page-course-view-topics.course-19 #page-header {
+  margin-bottom: 20px;
+  background-image: url(http://unitatis.capytech.com/assets/course2banner.JPG);
+  padding: 19rem 27px 1rem 28px !important;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  position: relative;
+}
+#wdm-edwiserreports #todaysactivityblock .card {
+  margin-top: 20px;
+}
+.dropdown-menu a.active {
+  background-color: #1e98c5 !important;
+}
+ul a.active {
+  color: #1e98c5 !important;
+}
+#nav-drawer .list-group-item ul li a.active,
+#nav-drawer .c-flat-nav ul li a.active {
+  background-color: #1e98c569 !important;
+  color: white !important;
+}
+#nav-drawer .list-group-item .active .nav-icon,
+#nav-drawer .c-flat-nav .active .nav-icon {
+  color: white !important;
+}
+#nav-drawer .c-flat-nav a:hover .nav-icon {
+  color: white !important;
+}
+#nav-drawer .list-group-item ul li a:hover,
+#nav-drawer .c-flat-nav ul li a:hover {
+  background-color: #1e98c569 !important;
+  color: white !important;
+}
+.section .activity .contentafterlink {
+  color: unset !important;
+  font-size: 0.8rem;
+}
+.format-tiles .sectiontitle::after,
+.format-tiles .tag-info,
+.format-tiles
+  #page-admin-index
+  .adminwarning.availableupdatesinfo
+  .moodleupdateinfo.maturity200
+  .info.release,
+#page-admin-index
+  .adminwarning.availableupdatesinfo
+  .moodleupdateinfo.maturity200
+  .format-tiles
+  .info.release,
+.format-tiles .assignfeedback_editpdf_widget .label,
+.assignfeedback_editpdf_widget .format-tiles .label {
+  background-color: transparent !important;
+}
+.tag-info,
+#page-admin-index
+  .adminwarning.availableupdatesinfo
+  .moodleupdateinfo.maturity200
+  .info.release,
+.assignfeedback_editpdf_widget .label {
+  color: #515151 !important;
+}
+.section .activity .activityinstance .availabilityinfo {
+  margin-bottom: 0 !important;
+  margin-left: -18px;
+  margin-top: -12px !important;
+}
+.format-tiles .completion-icon {
+  margin-top: -20px;
+}
+.section .activity.modtype_label {
+  padding: 2rem 0;
+  margin-top: 10px;
+  margin-bottom: -20px !important;
+}
+.section .activity.modtype_label:hover {
+  background-color: transparent !important;
+}
+.format-tiles .course-content li.activity.label h1,
+.format-tiles .course-content .section li.activity.label h2,
+.format-tiles .course-content li.activity.label h3,
+ .format-tiles .course-content li.activity.label h4,
+ .format-tiles .editor_atto_content_wrap h1,
+.format-tiles .editor_atto_content_wrap h2,
+.format-tiles .editor_atto_content_wrap h3,
+.format-tiles .editor_atto_content_wrap h4  {
+  border-left-color: #235b7f !important;
+}
+
+.section li.activity {
+  padding-top: 0 !important;
+  padding-bottom: 0.5em !important;
+}
+#nav-drawer .c-nav a:hover {
+  background-color: rgba(30, 152, 197, 0.41) !important;
+  color: white !important;
+}
+*:focus {
+  outline: unset;
+  -webkit-box-shadow: unset !important;
+  box-shadow: unset !important;
+  border-radius: 0 !important;
+}
+.format-tiles .embed_cm_modal .modal-header,
+.format-tiles .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: rgba(187, 187, 187, 0.07) !important;
+  color: #fff;
+}
+.format-tiles .embed_cm_modal .modal-title {
+  max-width: calc(100% + 3rem) !important;
+}
+.format-tiles .embed-module-buttons .completion-icon {
+  opacity: 0 !important;
+}
+.format-tiles .modal-header h5,
+.format-tiles .modal-header h4 {
+  color: #212121 !important;
+}
+/** Login **/
+#page-course-view-tiles .pull-right {
+}
+#page-login-index .login-box {
+  margin: 20vh auto !important;
+  opacity: 0.95 !important;
+}
+#page-site-index #page {
+  padding: 0 !important;
+}
+#page-course-view-tiles #page {
+  padding: 0 !important;
+}
+/** Settings Button **/
+.settings-menu .singlebutton .btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+/** Footer **/
+.tool_dataprivacy,
+.o-page-doc-link {
+  display: none;
+}
+.s-footer--copy {
+  text-align: center;
+  font-size: 12px;
+}
+.s-footer {
+  padding: 0px !important;
+  //display: none;
+}
+/** Progress bars **/
+.block_myoverview .progress .progress-bar,
+[data-region="recentlyaccessedcourses-view"] .progress .progress-bar {
+  background: linear-gradient(165deg, #00a3ab, #00a3ab) !important;
+}
+/** Pop ups **/
+.dropdown-menu .dropdown-item .icon {
+  color: black !important;
+}
+.dropdown-menu .dropdown-item .active {
+  background-color: #1e98c5;
+}
+.dropdown-menu .dropdown-item .icon:hover {
+  color: #00a38b !important;
+}
+[data-title*="logout"] {
+  background-color: #1e98c5 !important;
+  color: white !important;
+}
+.dropdown-item a {
+  color: black !important;
+}
+.dropdown-item a:hover {
+  color: rgba(30, 152, 197, 0.41) !important;
+}
+.message-drawer .btn-link:hover,
+.message-app .btn-link:hover {
+  background-color: #f0f4fe;
+  color: rgba(30, 152, 197, 0.41) !important;
+  text-decoration: none;
+}
+[data-title*="logout"] span {
+  color: black !important;
+}
+[data-title*="logout"] span:hover {
+  color: rgba(30, 152, 197, 0.41) !important;
+}
+.dropdown-menu .dropdown-item:hover .icon {
+  color: rgba(30, 152, 197, 0.41) !important;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: rgba(30, 152, 197, 0.41) !important;
+}
+.dropdown-menu a:hover,
+.dropdown-menu .card a:hover,
+.dropdown-menu .well a:hover,
+.dropdown-menu .que .history a:hover,
+.que .dropdown-menu .history a:hover,
+.dropdown-menu .groupinfobox a:hover,
+.dropdown-menu .btn:hover {
+  background-color: #eee !important;
+}
+.dropdown-divider {
+  border-top: 1px solid #ddd !important;
+}
+.popover-region-header-text {
+  color: black !important;
+}
+.dropdown-author {
+  color: black;
+}
+.dropdown-menu.show {
+  display: block;
+  background-color: white !important;
+}
+.dropdown-menu .dropdown-item {
+  display: block;
+  color: black !important;
+  text-align: left;
+  font-size: 0.75rem !important;
+  white-space: normal;
+}
+.popover-region-header-actions a {
+  color: black !important;
+}
+.popover-region-notifications .all-notifications:empty + .empty-message {
+  color: black !important;
+  width: 100%;
+  padding: 0.5rem 1.75rem 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: block !important;
+}
+.c-course-box .coursecat a {
+  background-color: #f01e1e54 !important;
+  color: white !important;
+}
+.popover-region-container {
+  background-color: white !important;
+}
+/** Cards **/
+.block_myoverview .coursename:hover,
+[data-region="recentlyaccessedcourses-view"] .coursename:hover {
+  color: rgba(30, 152, 197, 0.41) !important;
+  text-decoration: none;
+}
+/** Bread Crumbs **/
+.breadcrumb-item a:hover,
+.coursefilesbreadcrumb a:hover {
+  color: #1e98c5 !important;
+}
+.nav-tabs .nav-link.active {
+  color: #1e98c5 !important;
+}
+.nav-tabs .nav-link:hover {
+  color: #1e98c5 !important;
+  border-radius: 0;
+}
+p a:before,
+nav a:before,
+ul a:before,
+ol a:before,
+dt a:before,
+dd a:before,
+.tab-pane .col-3 a:before,
+.tab-pane .col-xs-3 a:before,
+[role="tabpanel"] h4 a:before,
+#page-user-preferences .card-body a:before,
+.recipename a:before {
+  background-color: #1e98c5 !important;
+}
+/** CHEVRON **/
+#back-to-top {
+  background-color: #1e98c5;
+}
+#back-to-top:hover {
+  background-color: #e47e25;
+}
+/** Footers **/
+
+/** Sidebar and Navbar **/
+.format-tiles a.nav-link {
+  color: white !important;
+}
+.s-top {
+  background-color: #1e98c5 !important;
+}
+.sidebar-btn:hover {
+  background-color: unset !important;
+}
+.sidebar-btn {
+  background-color: #e47e25 !important;
+}
+.s-top .nav-link:hover {
+  background-color: unset;
+  color: white;
+}
+.s-top .nav-link {
+  background-color: unset;
+  color: white !important;
+}
+.usermenu .dropdown-toggle {
+  padding: 5px 5px 5px 5px !important;
+}
+.c-nav a:hover {
+  color: white !important;
+}
+.c-nav a:hover .icon,
+.c-nav a:hover .form-control-static img,
+.form-control-static .c-nav a:hover img,
+.c-nav a:hover .fdescription img,
+.fdescription .c-nav a:hover img,
+.c-nav a:hover .editor_atto_notification .atto_info img,
+.editor_atto_notification .atto_info .c-nav a:hover img {
+  color: white !important;
+}
+#nav-drawer {
+  padding: 17px;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  overflow: scroll;
+  z-index: 2;
+  border-right: 1px solid #e8e8e8;
+  top: 0;
+  left: 0;
+  right: auto;
+  color: #424242;
+  -webkit-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+#nav-drawer2 {
+  padding: 17px;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  overflow: scroll;
+  z-index: 2;
+  border-right: 1px solid #e8e8e8;
+  top: 0;
+  left: 0;
+  right: auto;
+  color: #424242;
+  -webkit-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.c-user-menu
+  .dropdown-menu
+  .dropdown-item[aria-labelledby~="actionmenuaction-2"],
+.c-user-menu
+  .dropdown-menu
+  .dropdown-item[aria-labelledby~="actionmenuaction-3"],
+.c-user-menu
+  .dropdown-menu
+  .dropdown-item[aria-labelledby~="actionmenuaction-4"],
+.c-user-menu
+  .dropdown-menu
+  .dropdown-item[aria-labelledby~="actionmenuaction-5"] {
+  display: none;
+}
+
+.c-user-menu .dropdown-divider {
+  display: none;
+}
+
+.top-icons-nav.c-menu-sep {
+  display: none;
+}
+
+#nav-drawer .c-flat-nav ul li a[data-key="home"],
+#nav-drawer .c-nav ul li a[data-key="home"],
+#nav-drawer .c-flat-nav ul li a[data-key="calendar"],
+#nav-drawer .c-nav ul li a[data-key="calendar"] {
+  display: none;
+}
+
+#page-course-view-topics #nav-drawer .c-flat-nav,
+#page-mod-scorm-view #nav-drawer .c-flat-nav,
+#nav-drawer .c-nav ul li[data-key="mycourses"],
+#page-local-edwiserreports-completion #nav-drawer .c-flat-nav,
+#nav-drawer .c-flat-nav ul li[data-key="mycourses"] {
+  display: none;
+}
+
+#wdm-edwiserreports #siteaccessblock #accessinfodesctable {
+  display: none !important;
+}
+
+.dataTables_wrapper table.dataTable thead > tr > th {
+  padding: 10px 30px 10px 10px !important;
+}
+
+#page-mod-scorm-report .c-flat-nav {
+  display: none;
+}
+
+#page-my-index .block_myoverview .progress,
+#page-my-index .block_myoverview .progress-bar-text {
+  display: none;
+}
+
+#page-enrol-index .breadcrumbs.w-100 {
+  display: none !important;
+}
+
+/** Front page Settings **/
+#page-site-index .c-top-logo,
+#page-site-index #heroimg {
+  display: none;
+}
+#page-site-index #region-main-box {
+  padding: 0 0 !important;
+}
+#page-site-index .dropdown-item .dropdown-author {
+  display: none;
+}
+#page-site-index #frontpage-available-course-list h2 {
+  text-align: left;
+  font-size: 2rem;
+  color: #e4822d;
+}
+/**  Course Boxese **/
+#page-site-index .course-box-desc {
+  display: none;
+}
+#page-site-index .courses-view-course-item-footer .course--btn .btn-primary {
+  background: white !important;
+  color: #1e98c5 !important;
+}
+#page-site-index .c-course-box .coursecat.coursecat {
+  display: none;
+}
+#badges {
+  background: url("https://capytech.com/demos/Unitatis/frontpage/background.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 120px;
+}
+#badges h1 {
+    font-weight: bold;
+    color: #e4822d;
+    font-size: 50px;
+}
+#badges h3 {
+  font-weight: normal;
+  color:  black;
+  font-size: 25px;
+}
+#badges .thin-text {
+    font-weight: 500;
+    color: #e4822d;
+    font-size: 1em;
+}
+
+/** Media Queries **/
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  #page-site-index #topBar1 {
+    padding: 0 !important;
+  }
+  #page-site-index #frontpage_logo {
+    display: none;
+  }
+  #page-site-index .s-top-container.show {
+    width: 100%;
+  }
+  #page-site-index .s-top .nav {
+    width: unset !important;
+  }
+  /* #page-site-index .c-user-menu #action-menu-1-menu {
+        transform: unset !important;
+        top: 30px;
+    } */
+}
+@media (min-width: 320px) and (max-width: 1200px) {
+  #page-site-index #topBar1 {
+    padding: 0 !important;
+  }
+  #page-site-index #frontpage_logo {
+    display: none;
+  }
+  #page-site-index .s-top-container.show {
+    width: 100%;
+  }
+  #page-site-index .s-top .nav {
+    width: unset !important;
+  }
+  #page-site-index .c-user-menu #action-menu-1-menu {
+    transform: unset !important;
+    top: 50px !important;
+    right: 0 !important;
+  }
+}
+
+@media (max-width: 599px) {
+  #page-site-index .btn-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #page-site-index .btn-container .btn:first-child {
+    margin: 10px 20px !important;
+  }
+}
+#page-site-index #badges h1 {
+    font-weight: 700;
+    color: #e4822d;
+    font-size: 38px !important;
+    word-break: normal;
+}
+
+#page-site-index #badges h3 {
+    font-weight: 400;
+    color: #000;
+    font-size: 25px;
+    font-size: 3.8vmin!important;
+
+}
+
+@media (min-width: 320px) and (max-width: 860px){ 
+
+	#page-site-index .row.text-center .col-sm-12 {
+	    flex: 0 0 100%;
+	    max-width: 450px;
+	    min-width: 335px;
+	    margin: auto;
+	}
+}
+@media (min-width: 425px) and (max-width: 768px){
+    #page-site-index #badges {
+
+        padding: 120px 60px;
+
+    }
+   #page-site-index #frontpage-available-course-list {
+    margin-top: 30px !Important;
+   }
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+
+    #page-site-index #badges {
+
+        padding:120px 0px;
+    }
+
+}
+html {
+scroll-behavior: smooth;
+}

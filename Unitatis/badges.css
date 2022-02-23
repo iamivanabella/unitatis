@@ -1,0 +1,51 @@
+
+
+#page-site-index #badges h1 {
+    font-weight: 700;
+    color: #e4822d;
+    font-size: 50px;
+    font-size: 7.4vmin!important;
+    word-break: normal;
+}
+
+#page-site-index #badges h3 {
+
+    font-weight: 400;
+    color: #000;
+    font-size: 25px;
+    font-size: 3.8vmin!important;
+
+}
+
+@media (min-width: 320px) and (max-width: 860px){ 
+
+	#page-site-index .row.text-center .col-sm-12 {
+
+	    flex: 0 0 100%;
+	    max-width: 450px;
+	    min-width: 335px;
+	    margin: auto;
+
+	}
+
+}
+
+@media (min-width: 425px) and (max-width: 768px){
+
+    #page-site-index #badges {
+
+        padding: 120px 60px;
+
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+
+    #page-site-index #badges {
+
+        padding:120px 0px;
+
+    }
+
+}

@@ -1,0 +1,44 @@
+$("#page-site-index #page #topBarContainer").before('<div class="section1-container" style="background: #212121; height: 750px; align-items: center; display: flex; justify-content: center; flex-direction: column; background-image:  url(https://capytech.com/demos/Unitatis/frontpage/panel1-bg.png); background-size: cover;"><img src="https://capytech.com/demos/Unitatis/frontpage/logo-min.png" style="width: 200px;"><div class="btn-container" style="margin-top: 40px;"><a href="#frontpage-available-course-list" class="btn btn1" style="font-size: 18px; color: white; margin: 0 20px; border-radius: 30px; background: none; border: 2px solid white; padding: 0.5rem 2.4rem;"><p>Available Courses</p></a><a href="#badges" class="btn btn2" style="font-size: 18px; color: white; margin: 0 20px; border-radius: 30px; background: none; border: 2px solid white; padding: 0.5rem 1.5rem;" ><p>My Accomplishments</p></a></div></div>'); $("#page-site-index #page-wrapper #page #topBarContainer #topBar1").attr('style', 'background-color: #E2E3E5 !important; padding: 15px 65px;'); $("#page-site-index #page-wrapper #page #topBarContainer #navBar .c-nav-user").attr('style', 'background-color: #ffffff; border-radius: 30px;'); $("#page-site-index #page-wrapper #page #topBarContainer #navBar .c-nav-user").prepend('<div class="c-nav-user-text" style="padding: 15px 10px 15px 20px;"><p class="c-nav-username" style="font-size: 14px; font-weight: 500; ">UFS LMS User</p></div>');$("#page-site-index #page #topBarContainer #navBar .c-nav-user .c-user-menu").attr('style', 'margin-right: 5px'); $("#page-site-index #page #topBarContainer #navBar .c-nav-user .c-user-menu #action-menu-toggle-1").attr('style', 'background: transparent'); $("#page-site-index #page-wrapper #page #topBarContainer #topBar1 #navBar").prepend('<img id="frontpage_logo" src="https://capytech.com/demos/Unitatis/frontpage/front_page_logo.png" style="width: 290px">'); $("#page-site-index #page-wrapper #page #topBarContainer #navBar .c-nav-user .c-nav-username").text($('#page-site-index #page-wrapper #page #topBarContainer #topBar1 #navBar .c-user-menu .dropdown .usertext').text().split(' ')[0]); $('#page-site-index #page-wrapper #page #topBarContainer #topBar1 #navBar .c-user-menu .dropdown .dropdown-menu .dropdown-author').text($('#page-site-index #page-wrapper #page #topBarContainer #topBar1 #navBar .c-user-menu .dropdown .dropdown-menu .dropdown-author').text().split(' ')[0]); $('#page-site-index #page-wrapper #page #topBarContainer #topBar1 #navBar .c-user-menu .dropdown .dropdown-menu').attr('style', 'border: 1px solid rgba(33, 33, 33, 0.6); top: 7px!important; left: 5px!important; min-width: 170px; margin-top: 9px; box-shadow: none;'); $('#page-site-index #page-wrapper #page #topBarContainer #navBar').attr('style', 'background-color:unset');
+
+
+
+<!-- Media Queries --> 
+
+<!-- @media (max-width:1200px) {
+
+	#page-site-index #page-wrapper #page #topBarContainer #topBar1 {
+
+		padding: unset;
+
+	}
+
+	#page-site-index #page-wrapper #page #topBarContainer #topBar1 #navBar {
+
+		width: 200px!important;
+		top: 10px;
+		right: 10px;
+
+	}
+
+	#page-site-index #page-wrapper #page #topBarContainer #topBar1 #showMobileTopBar {
+
+		top: 18px;
+		right: 15px
+
+	}
+
+	#page-site-index #page-wrapper #page #topBarContainer #topBar1 #navBar img{
+
+		display: none;
+
+	}
+
+	#page-site-index #page-wrapper #page #topBarContainer #topBar1 #navBar .c-user-menu .dropdown .dropdown-menu {
+
+		left: 40px;
+
+
+	}
+
+
+} -->
